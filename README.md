@@ -1,12 +1,57 @@
-# React + Vite
+# React Mini Projects – Dev Weekend Fellowship
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains six mini React component projects built as part of the **Dev Weekend Fellowship** program. Each project demonstrates key React concepts and modern JavaScript (ES6) usage. These components are designed to be reusable, lightweight, and focused on mastering UI logic and API integration.
 
-Currently, two official plugins are available:
+## 🧩 Projects Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Accordion**
+   - A collapsible content panel.
+   - Built using React state and conditional rendering.
+   - Fully responsive with smooth toggle animations.
 
-## Expanding the ESLint configuration
+2. **Load More Products**
+   - A product list with a "Load More" button.
+   - Fetches and displays products using APIs.
+   - Implements lazy loading patterns.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **QR Code Generator**
+   - Generates QR codes from user input.
+   - Uses an external API to render QR codes dynamically.
+
+4. **Random Color Generator**
+   - Generates and displays random hex colors.
+   - Option to copy colors to clipboard.
+   - Includes color history tracking.
+
+5. **Star Rating**
+   - Interactive star-based rating component.
+   - Supports dynamic rating with hover effects and selection state.
+
+6. **Tree View Menu**
+   - A collapsible hierarchical data menu (tree structure).
+   - Recursive rendering and expandable/collapsible submenus.
+
+---
+
+## 🚀 Tech Stack
+
+- **React.js** (Functional Components + Hooks)
+- **JavaScript (ES6)**
+- **REST APIs**
+- **HTML/CSS (Basic Styling)**
+- No external state management (Redux, Zustand, etc.)
+
+---
+
+## 🛠️ Installation & Running Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/react-mini-projects.git
+   cd react-mini-projects
+   npm install
+   npm run dev
+
+---
+
+Let me know if you’d like help customizing any links ([like GitHub repo](https://github.com/Seboo-Dogar/SixMini-Components), [LinkedIn](https://www.linkedin.com/in/sohaib-aslam-dev/), or [Email](seboodogar@gmail.com)), or turning this into a single live demo app with navigation between components.
